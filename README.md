@@ -4,6 +4,8 @@
 Spring boot
 ## 工具
 idea
+##### 数据库迁移
+flyway
 ## 接入一个GitHubapp
 [Github app Guide](https://developer.github.com/apps/building-github-apps/creating-a-github-app/)
 
