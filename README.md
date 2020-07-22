@@ -10,16 +10,4 @@ flyway
 [Github app Guide](https://developer.github.com/apps/building-github-apps/creating-a-github-app/)
 
 ## sql脚本
-```sql
-create table USER
-(
-	ID INT auto_increment,
-	ACCOUNT_ID VARCHAR(100),
-	NAME VARCHAR(50),
-	TOKEN CHAR(36),
-	GMT_CREATE BIGINT,
-	GMT_MODIFIED BIGINT,
-	constraint TABLE_NAME_PK
-		primary key (ID)
-);
-```
+使用了flyway，sql脚本存储在中 db/migration ，命名规则为V1__增加修改的内容.sql
